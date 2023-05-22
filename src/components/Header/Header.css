@@ -1,0 +1,15 @@
+.header {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.header .logo {
+    width: 100px;
+    height: 100px;
+    background-image: url(../../assets/TF-Logo.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}

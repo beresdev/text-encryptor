@@ -1,7 +1,9 @@
+import './Header.css'
+
 function Header() {
     return(
-        <header>
-            <img src='../../assets/TF-Logo.png' alt="" />
+        <header className="header">
+            <div className='logo'/>
             <p></p>
             <p></p>
         </header>
