@@ -1,10 +1,15 @@
 import './App.css'
+import { Header } from './components/Header/Header'
+import { MainInput } from './components/MainInput/MainInput'
+import { TextArea } from './components/TextArea/TextArea'
 
 function App() {
 
   return (
     <>
-    <h1>Text encriptor</h1>
+      <Header />
+      <MainInput />
+      <TextArea />
     </>
   )
 }
